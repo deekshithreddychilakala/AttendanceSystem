@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "765125196808",
+    "firebase_url": "https://attendance-management-sy-e278f.firebaseio.com",
+    "project_id": "attendance-management-sy-e278f",
+    "storage_bucket": "attendance-management-sy-e278f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765125196808:android:8a4319da6d548690",
+        "android_client_info": {
+          "package_name": "com.deekshithreddy.attendancesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765125196808-q3doajfhrapt00ieebvncmje2mt0n17o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9QPzPGVrpcQch9R1R_TrzPAGGN5YR2pk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
