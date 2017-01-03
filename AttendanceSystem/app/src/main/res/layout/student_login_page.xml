@@ -8,6 +8,86 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#EFF1F1"
     tools:context="com.deekshithreddy.attendancesystem.student_login">
+    <TextView
+        android:text="Student Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:id="@+id/stloginmsg"
+        android:textSize="25sp"
+        android:textColor="@android:color/black" />
 
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stuid"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView10"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/studentsubmit"
+        android:background="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="57dp"
+        android:id="@+id/stuid"
+        android:textColor="#009688"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:layout_below="@+id/stloginmsg"
+        android:layout_alignLeft="@+id/stloginmsg"
+        android:layout_alignStart="@+id/stloginmsg"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/stpwd"
+        android:textSize="18sp"
+        android:textColor="#009688"
+        android:singleLine="true"
+        android:fontFamily="sans-serif"
+        android:selectAllOnFocus="false"
+        android:layout_alignBaseline="@+id/textView10"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/stuid"
+        android:layout_alignStart="@+id/stuid"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/stuid"
+        android:layout_alignBottom="@+id/stuid"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
