@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AttendanceSystem</string>
+    <string name="title_activity_staff_login">staff_login</string>
 </resources>

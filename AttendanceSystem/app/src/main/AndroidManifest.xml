@@ -9,8 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--Main Activity-->
-        <activity android:name=".MainActivity"
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
             android:configChanges="keyboardHidden|screenLayout|screenSize|locale"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -21,14 +22,31 @@
             </intent-filter>
         </activity>
 
-        <!--Splash Screen Activity-->
-        <activity android:name=".SplashScreenActivity"
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name=".SplashScreenActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".staff_login"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+
+        <activity
+            android:name=".student_login"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+
+        <activity android:name=".parent_login"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
+
     </application>
 
 </manifest>
