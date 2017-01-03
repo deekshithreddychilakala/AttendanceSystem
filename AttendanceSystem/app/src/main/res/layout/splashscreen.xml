@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C6BC0"
+    android:gravity="center|center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/logotext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:text="Attendance Management System"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif" />
+
+</LinearLayout>
